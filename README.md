@@ -36,4 +36,33 @@ com um esquema de cores mais esteticamente agradável e com possibilidade de for
 Ao final, o gráfico plotado com Pandas ficou expresso em sua branch, a "master", com nome e formato "plotted.pdf", enquanto o plotado com MatPlotLib foi expresso com nome e
 formato "graph.png" na branch "altered_plotting"
 
-Ao final do código, foram colocadas considerações sobre uma análise de dados que eu faria junto com a sua implementação.
+Ao final do código, foram colocadas considerações sobre uma análise de dados que eu faria junto com a sua implementação. A análise de dados, trazida diretamente do código, foi proposta da seguinte maneira:
+
+"""
+#####Minha análise de dados - Teoria#####
+
+#Para a criação de estratégias de investimento, abordagem e expansão de um negócio, é necessário observar fontes de renda
+#e capital. Por sua vez, é preferencial que a implementação dessas estratégias seja orientada por proximidade e distribuição
+#capital regional, a fim de não dificultar a realização logística da estratégia ou mesmo de diminuir as chances de um
+#desequilíbrio e concentração de investimentos.
+ 
+#Logo, a análise de dados a seguir visa observar o capital social em relação panorama geral da Região Sul que foi apresentado.
+#Essa análise buscará trazer os munícipios com maior concentração de capital e maior distribuição proporcional em relação a esse
+#capital total. Essa distribuição pode ser medida à partir do cálculo de Desvio Padrão, e é relevante no princípio do ditado
+#popular "Não se deve colocar todos os ovos no mesmo cesto", onde municípios com uma empresa de capital alto e as demais com
+#capital comparativamente baixa nem sempre são a escolha mais adequada. Avaliando individualmente  cada município,
+#pode-se chegar à partir destes dados se um determinado município tem pouca ou muita presença de serviço (quantidade),
+#se seu capital social é alto ou baixo (capital_total) e se a distribuição deste capital dentre as unidades da cidade é
+# igual ou desigual(desvio_padrão).
+
+#É válido ressaltar que a medida de Desvio Padrão deve ser avaliada de acordo com o capital_total, sabendo-se que
+#quanto mais baixa, mais igual é a distribuição da renda por entre as empresas(exceto quando se trata de desvio nulo
+# em municípios de quantidade = 1, onde aí a concentração é total de uma empresa).
+
+#Ao final, a exportação e a apresentação dos dados se encontra em formatos .csv e .xlsx. Essa escolha de formatos se deu
+#por .csv ter sido o formato apresentado inicialmente e mais utilizado durante o projeto, enquanto o .xlsx permite uma
+#visualização e manipulação dos dados de maneira mais user-friendly. Os documentos estão identificados por "dados_capital_municipal"
+#na pasta "Data".
+"""
+
+E assim, o projeto dá-se por finalizado.
