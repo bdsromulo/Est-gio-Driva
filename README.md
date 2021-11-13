@@ -39,7 +39,6 @@ por não terem sofrido manipulação prévia, não havia risco de estarem compro
 continha a contagem de empresas por bairro.
 Inicialmente, utilizei a própria biblioteca Pandas para plotar o gráfico. Com pouca dificuldade, o fiz, mas no entanto, não pude deixar de perceber a limitação da biblioteca na ação de plotagem de gráficos, que permite poucas alterações estéticas e dinâmicas.
 Por isso, abri outra branch, desta vez, me utilizando da biblioteca MatPlotLib. Por meio dela, pude realizar mais ações no gráfico, dentre deixá-lo mais organizado, com um esquema de cores mais esteticamente agradável e com possibilidade de formatação condicional que torna a informação mais visível e "user-friendly".
-
 Ao final, o gráfico plotado com Pandas ficou expresso em sua branch, a "master", com nome e formato "plotted.pdf", enquanto o plotado com MatPlotLib foi expresso com nome e formato "graph.png" na branch "altered_plotting", que é onde a totalidade do projeto reside e é por onde deve ser implementado.
 
 5. Ao final do código, foram colocadas considerações sobre uma análise de dados que eu faria junto com a sua implementação. A análise de dados, trazida diretamente do código, foi proposta da seguinte maneira:
