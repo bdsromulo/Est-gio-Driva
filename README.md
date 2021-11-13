@@ -53,11 +53,11 @@ Ao final do código, foram colocadas considerações sobre uma análise de dados
 #capital comparativamente baixa nem sempre são a escolha mais adequada. Avaliando individualmente  cada município,
 #pode-se chegar à partir destes dados se um determinado município tem pouca ou muita presença de serviço (quantidade),
 #se seu capital social é alto ou baixo (capital_total) e se a distribuição deste capital dentre as unidades da cidade é
-# igual ou desigual(desvio_padrão).
+#igual ou desigual(desvio_padrão).
 
 #É válido ressaltar que a medida de Desvio Padrão deve ser avaliada de acordo com o capital_total, sabendo-se que
 #quanto mais baixa, mais igual é a distribuição da renda por entre as empresas(exceto quando se trata de desvio nulo
-# em municípios de quantidade = 1, onde aí a concentração é total de uma empresa).
+#em municípios de quantidade = 1, onde aí a concentração é total de uma empresa).
 
 #Ao final, a exportação e a apresentação dos dados se encontra em formatos .csv e .xlsx. Essa escolha de formatos se deu
 #por .csv ter sido o formato apresentado inicialmente e mais utilizado durante o projeto, enquanto o .xlsx permite uma
